@@ -1,0 +1,60 @@
+学生-课程数据库：
+学生表：Student(Sno, Sname, Ssex, Sage, Sdept)
+课程表：Course(Cno, Cname, Cpno, Ccredit)
+学生选课便：SC(Sno, Cno, Grade)
+
+
+create database Course;
+use course;
+create table Student(Sno char(9) primary key,Sname char(9) unique,Ssex char(2),Sage smallint,Sdept char(20));
+insert into table Student(Sno, Sname, Ssex, Sage, Sdept) values(1, 'zhangsan', '男', 20, 'CS'), (1, 'zhangsan', '男', 20, 'CS'), (2, 'lisi', '男', 21, 'CS'), (3, 'wangwu', '女', 22, 'CS'), (4, 'liuliu', '男', 23, 'CS');
+delete from Student where Sno > 1;
+delete from Student where Sno = 1;
+insert into table Student(Sno, Sname, Ssex, Sage, Sdept) values(1, 'zhangsan', '男', 20, 'CS');
+update Student set Sage = 99 where Sno > 2;
+select Sname, Sage from Student where Sno < 5;
+select * from Student where Sno < 5;
+select * from view_name1 where Sno < 5;
+select * from view_name2 where Sno < 5;
+select * from view_name3 where Sno < 5;
+create index ageIndex on Student (Sage);
+create view view_name1 as select Sno, Sname, Ssex, Sage from Student where Sno < 4;
+create view view_name2 as select Sno, Sname, Ssex from view_name1 where Sno < 3;
+create view view_name3 as select Sno, Sname from view_name2 where Sno < 2;
+----------------------------------------------------学生表------------------------------------------------------------
+========================================================================
+创建
+create table Student(
+    Sno char(9) primary key,
+    Sname char(9) unique,
+    Ssex char(2),
+    Sage smallint,
+    Sdept char(20)
+);
+
+create table Student(Sno char(9)
+primary key,Sname char(9) unique,Ssex char(2),
+Sage smallint,Sdept char(20));
+create index Sage on Student (Sage);
+
+========================================================================
+删表
+drop table Student;
+========================================================================
+修改表：
+alter table Student add Sentrance char(10);
+alter table Student;
+=========================================================================
+修改数据
+update Student set Sage = 100 where Ssex = '男';
+update Student set Sage = 999 where Ssex = '女';
+update Student set Sage = 888 where Sage < 40;
+update Student set Sdept = 'Computer' where (Sage = 888 and Sname = 'lisi') or Sname = 'liuliu';
+========================================================================
+插入数据
+insert into table Student(Sno, Sname, Ssex, Sage, Sdept) values(1, 'zhangsan', '男', 20, 'CS');
+insert into table Student(Sno, Sname, Ssex, Sage, Sdept) values(1, 'zhangsan', '男', 20, 'CS'), (1, 'zhangsan', '男', 20, 'CS'), (2, 'lisi', '男', 21, 'CS'), (3, 'wangwu', '女', 22, 'CS'), (4, 'liuliu', '男', 23, 'CS');
+74
+=================================================================================================================================
+查询：
+select Sname, Sage from Student where sno < 4;

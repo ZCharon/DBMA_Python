@@ -1,0 +1,41 @@
+{
+    "view_name1": [
+        "Student",
+        [
+            "Sno",
+            "Sname",
+            "Ssex",
+            "Sage"
+        ],
+        [
+            "Sno",
+            "<",
+            "4"
+        ]
+    ],
+    "view_name2": [
+        "view_name1",
+        [
+            "Sno",
+            "Sname",
+            "Ssex"
+        ],
+        [
+            "Sno",
+            "<",
+            "3"
+        ]
+    ],
+    "view_name3": [
+        "view_name2",
+        [
+            "Sno",
+            "Sname"
+        ],
+        [
+            "Sno",
+            "<",
+            "2"
+        ]
+    ]
+}
