@@ -5,11 +5,11 @@
 
    1. 用户登录系统流程图
 
-      <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\user_login.png" alt="user_login" style="zoom: 67%;" />
+      <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/user_login.png" alt="user_login" style="zoom: 67%;" />
 
    2. SQL主系统执行流程图
 
-      <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\sql_system.png" alt="sql_system" style="zoom: 67%;" />
+      <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/sql_system.png" alt="sql_system" style="zoom: 67%;" />
 
    3. 系统整合：
 
@@ -31,7 +31,7 @@
 
       3. 建表流程图
 
-         <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\cerate_table.png" alt="cerate_table" style="zoom:67%;" />
+         <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/cerate_table.png" alt="cerate_table" style="zoom:67%;" />
 
    3. 创建索引
 
@@ -39,7 +39,7 @@
 
       2. 建索引流程图
 
-         ![creste_view](D:\PycharmProjects_\DatabaseManagementSystem\README.assets\creste_view.png)
+         ![creste_view.png](https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/creste_index.png)
 
    4. 创建试图
 
@@ -47,7 +47,7 @@
 
       2. 建试图流程图
 
-         <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\create_view.png" alt="create_view" style="zoom:67%;" />
+         <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/create_view.png" alt="create_view" style="zoom:67%;" />
 
    5. 查询功能
 
@@ -55,21 +55,21 @@
 
       2. 查询流程图
 
-         ![select](D:\PycharmProjects_\DatabaseManagementSystem\README.assets\select.png)
+         ![select](https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/select.png)
 
    6. 更新操作
 
       1. 修改操作
 
-         <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\update.png" alt="update" style="zoom: 80%;" />
+         <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/update.png" alt="update" style="zoom: 80%;" />
 
       2. 插入操作
 
-         <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\insert.png" alt="insert" style="zoom:80%;" />
+         <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/insert.png" alt="insert" style="zoom:80%;" />
 
       3. 删除操作
 
-         <img src="D:\PycharmProjects_\DatabaseManagementSystem\README.assets\delete.png" alt="delete" style="zoom:80%;" />
+         <img src="https://github.com/ZCharon/Handwritten-DBMS/blob/main/README.assets/delete.png" alt="delete" style="zoom:80%;" />
 
       4. 索引更新
 
